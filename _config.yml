@@ -21,20 +21,20 @@ repository               : "VeraVeemo/VeraVeemo.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "AVeemo"
-  pronouns         : "She/Her"  
-  bio              : | "Heya! I'm **AV** or **Veemo**!
-﻿
-                      Some things about me! :
-                      Likes: [ Coding & Games ]
-                      Aspiration: [ Game Developer ]
-                      Server: [ __**https://discord.gg/GzWWqHxRap**__ ]"
-  location         : "Somewhere on Planet Glorp"
-  employer         : "Veemoworks"
-  uri              : # URL
-  email            : "aveemo@veraveemo.co.uk" 
+  avatar: "profile.png"
+  name: "AVeemo"
+  pronouns: "She/Her"
+  bio: |
+    Heya! I'm **AV** or **Veemo**!
+
+    Some things about me! :
+    Likes: [ Coding & Games ]
+    Aspiration: [ Game Developer ]
+    Server: [ __**https://discord.gg/GzWWqHxRap**__ ]
+  location: "Somewhere on Planet Glorp"
+  employer: "Veemoworks"
+  uri: ""
+  email: "aveemo@veraveemo.co.uk"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
