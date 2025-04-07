@@ -7,23 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-Hello, and welcome to my page! I'm Jade!
+Hello, and welcome to my page! I'm AVeemo, the silliest developer and gamer!
 
+I make custom projects/repo's from your liking! You can request one by DMing me on [Discord](https://discord.com/users/333585549837336577)! If you'd like to participate in Veemoworks, feel free to drop an application at [Google Forms](https://forms.gle/8nCFSskjBAhevQt39)!
+ Oh Veemoworks? That's just an organization I run, we make projects to aid you and others!
 
-A data-driven personal website
+About Me:
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Hello! I'm Jade — a developer and gamer, and I enjoy making neat things and playing video games. I love coding, creating and collaborating creatively, whether that is coding, working in a project, or just hanging with a friend online.
+I love to code, create, play video games, and socialize and take the opportunity to watch videos to learn or improve my skills. A couple of of my favorite languages and tools to work with are Python, Javascript and anything that will help manifest my ideas into a real-world experience or tool.
+I am also the creator of [Veemoworks](https://github.com/Veemoworks), a place where I organize my projects and ideas and take them into actions.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+My Skills:
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. Development - Python is my strongest programming language so far with JavaScript and .css being next in line!
+2. UX Design - Not good at "designing", but I'm pretty good at layouts, formats etc.
+3. Game Development - While not my own code, I make games in games e.g. Roblox. I do hope to make my own game when I have free time however.
+4. Tools - VSCode, Pycharm, Github etc., I'm pretty talented and I like teaching so if you need help, feel free to message me!
 
 Site-wide configuration
 ------
