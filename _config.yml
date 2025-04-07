@@ -24,13 +24,12 @@ author:
   avatar: "profile.png"
   name: "AVeemo"
   pronouns: "She/Her"
-  bio: |
-    Heya! I'm **AV** or **Veemo**!
-
-    Some things about me! :
-    Likes: [ Coding & Games ]
-    Aspiration: [ Game Developer ]
-    Server: [ __**https://discord.gg/GzWWqHxRap**__ ]
+  bio: >
+    Heya! I'm AV or Veemo!<br><br>
+    Some things about me! :<br>
+    Likes: [ Coding & Games ]<br>
+    Aspiration: [ Game Developer ]<br>
+    Server: [ https://discord.gg/GzWWqHxRap ]
   location: "Somewhere on Planet Glorp"
   employer: "Veemoworks"
   uri: ""
