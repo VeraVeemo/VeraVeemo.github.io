@@ -1,10 +1,7 @@
 ---
-title: "Archive Layout with Content"
+title: "Nothing Archived!"
 layout: archive
 permalink: /archive/
 redirect_from: 
   - /archive.html
 ---
-
-<ins>Nothing archived!<ins>
-======
