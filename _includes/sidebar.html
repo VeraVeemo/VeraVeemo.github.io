@@ -5,58 +5,53 @@
     {% endif %}
 
     <!-- Discord Status -->
-<div class="sidebar sticky">
-  <div id="discord-status">Loading Discord status...</div>
+    <script>
+      const socket = new WebSocket("wss://api.lanyard.rest/socket");
 
-  <script>
-    const socket = new WebSocket("wss://api.lanyard.rest/socket");
+      const userId = "333585549837336577"; // Your Discord ID
+      const statusMap = {
+        online: "Online",
+        idle: "Idle",
+        dnd: "Do Not Disturb",
+        offline: "Offline"
+      };
 
-    const userId = "333585549837336577"; // Your Discord ID
-    const statusMap = {
-      online: "Online",
-      idle: "Idle",
-      dnd: "Do Not Disturb",
-      offline: "Offline"
-    };
+      function updateStatus(data) {
+        const presence = data.discord_status;
+        const activities = data.activities;
 
-    function updateStatus(data) {
-      const presence = data.discord_status;
-      const activities = data.activities;
+        let display = `Discord: ${statusMap[presence] || "Unknown"}`;
 
-      let display = `Discord: ${statusMap[presence] || "Unknown"}`;
+        const game = activities.find(a => a.type === 0);
+        const spotify = activities.find(a => a.type === 2);
+        const customStatus = activities.find(a => a.type === 4);
 
-      const game = activities ? activities.find(a => a.type === 0) : null;
-      const spotify = activities ? activities.find(a => a.type === 2) : null;
-      const customStatus = activities ? activities.find(a => a.type === 4) : null;
-
-      if (spotify && spotify.details) {
-        display += `<br>🎧 Listening to <strong>${spotify.details}</strong>`;
-      } else if (game && game.name) {
-        display += `<br>🎮 Playing <strong>${game.name}</strong>`;
-      } else if (customStatus && customStatus.state) {
-        display += `<br>💬 ${customStatus.state}`;
-      }
-
-      document.getElementById("discord-status").innerHTML = display;
-    }
-
-    socket.addEventListener("open", () => {
-      socket.send(JSON.stringify({
-        op: 2,
-        d: {
-          subscribe_to_ids: [userId]
+        if (spotify && spotify.details) {
+          display += `<br>🎧 Listening to <strong>${spotify.details}</strong>`;
+        } else if (game && game.name) {
+          display += `<br>🎮 Playing <strong>${game.name}</strong>`;
+        } else if (customStatus && customStatus.state) {
+          display += `<br>💬 ${customStatus.state}`;
         }
-      }));
-    });
 
-    socket.addEventListener("message", event => {
-      const payload = JSON.parse(event.data);
-      console.log(payload);  // Log the payload for debugging
-      if (payload.t === "INIT_STATE" || payload.t === "PRESENCE_UPDATE") {
-        updateStatus(payload.d);
-      endif
+        document.getElementById("discord-status").innerHTML = display;
       }
-    });
-  </script>
-</div>
+
+      socket.addEventListener("open", () => {
+        socket.send(JSON.stringify({
+          op: 2,
+          d: {
+            subscribe_to_ids: [userId]
+          }
+        }));
+      });
+
+      socket.addEventListener("message", event => {
+        const payload = JSON.parse(event.data);
+        if (payload.t === "INIT_STATE" || payload.t === "PRESENCE_UPDATE") {
+          updateStatus(payload.d);
+        }
+      });
+    </script>
+  </div>
 {% endif %}
