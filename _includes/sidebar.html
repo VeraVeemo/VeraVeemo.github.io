@@ -54,7 +54,9 @@
       console.log(payload);  // Log the payload for debugging
       if (payload.t === "INIT_STATE" || payload.t === "PRESENCE_UPDATE") {
         updateStatus(payload.d);
+      endif
       }
     });
   </script>
 </div>
+{% endif %}
