@@ -4,6 +4,7 @@ permalink: /organizations/
 author_profile: false
 redirect_from:
   - /org/
+  - /organization/
   - /company/
   - /bigproj/
 ---
