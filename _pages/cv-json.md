@@ -1,35 +1,42 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv-json/
+title: "Organizations"
+permalink: /organizations/
 author_profile: false
 redirect_from:
-  - /resume-json
+  - /org/
+  - /company/
+  - /bigproj/
 ---
 
-{% include base_path %}
+## [Veemoworks](https://github.com/Veemoworks)
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+![hh](https://github.com/user-attachments/assets/3672bc61-fe1a-4f94-bf99-c820dc54a7d5)
 
-<style>
-  .archive {
-    width: 80%;
-    margin: 0 auto;
-    float: none;
-    padding-right: 0;
-  }
-  
-  @media (min-width: 80em) {
-    .archive {
-      width: 70%;
-    }
-  }
-</style>
+Veemoworks is my own personal Organization where I aim to help all of you! Where it's from design, coding, tools etc. we're always here to help!
 
-{% include cv-template.html %}
+If you would like to join Veemoworks and help other people, click [here!](https://forms.gle/8nCFSskjBAhevQt39).
 
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
-</div>
+
+# So far we've made:
+
+## Discord Bot
+This discord bot is aiming to make sure you have more fun at Discord! With constant updates, feeding off what the community wants and supporting it! This bot is also an OAuth2 bot for a bigger project!
+
+If you would like to find more info about the bot you can click this link!: https://github.com/Veemoworks/ABotmo
+
+If you would like to work on the bot, click this link!: https://forms.gle/8nCFSskjBAhevQt39
+
+If you would like to join the Discord Server and retrieve the bot for yourself click here: https://discord.gg/GzWWqHxRap
+
+
+# Upcoming projects:
+
+## Veemocord™
+This will be a complete rework of Discord's Client to be more powerful, efficient, and compatiable with anything you can think of!
+
+We currently arent working on bthis as there is little workers.
+
+
+
+That's all!
+======
