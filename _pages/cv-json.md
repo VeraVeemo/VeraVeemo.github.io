@@ -23,11 +23,11 @@ If you would like to join Veemoworks and help other people, click [here!](https:
 ## Discord Bot
 This discord bot is aiming to make sure you have more fun at Discord! With constant updates, feeding off what the community wants and supporting it! This bot is also an OAuth2 bot for a bigger project!
 
-If you would like to find more info about the bot you can click this link!: https://github.com/Veemoworks/ABotmo
+If you would like to find more info about the bot you can click this link!: [https://github.com/Veemoworks/ABotmo](https://github.com/Veemoworks/ABotmo)
 
-If you would like to work on the bot, click this link!: https://forms.gle/8nCFSskjBAhevQt39
+If you would like to work on the bot, click this link!: [https://forms.gle/8nCFSskjBAhevQt39](https://forms.gle/8nCFSskjBAhevQt39)
 
-If you would like to join the Discord Server and retrieve the bot for yourself click here: https://discord.gg/GzWWqHxRap
+If you would like to join the Discord Server and retrieve the bot for yourself click here: [https://discord.gg/GzWWqHxRap](https://discord.gg/GzWWqHxRap)
 
 
 # Upcoming projects:
