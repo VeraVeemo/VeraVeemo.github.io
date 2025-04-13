@@ -12,7 +12,7 @@ main:
     url: /projects/
 
   - title: "Organization"
-    url: /organization/    
+    url: /organizations/    
 
   - title: "Learning"
     url: /learn/    
